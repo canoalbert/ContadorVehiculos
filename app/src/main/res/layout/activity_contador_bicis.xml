@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/editTextBiciColor"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
@@ -41,7 +41,7 @@
 
     <EditText
         android:id="@+id/editTextBiciMarca"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
@@ -62,7 +62,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:text="CANCELAR"
-        app:cornerRadius="1px"
+        app:cornerRadius="20px"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextBiciColor" />
@@ -74,13 +74,13 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:text="CREAR"
-        app:cornerRadius="1px"
+        app:cornerRadius="20px"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextBiciColor" />
 
     <EditText
         android:id="@+id/editTextBiciModelo"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
