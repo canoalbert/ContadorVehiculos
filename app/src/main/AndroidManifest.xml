@@ -13,13 +13,13 @@
         android:theme="@style/Theme.ContadorVehiculos"
         tools:targetApi="31">
         <activity
-            android:name=".ContadorMotos"
+            android:name=".Actividades.ContadorMotos"
             android:exported="false" />
         <activity
-            android:name=".ContadorBicis"
+            android:name=".Actividades.ContadorBicis"
             android:exported="false" />
         <activity
-            android:name=".ContadorCoches"
+            android:name=".Actividades.ContadorCoches"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
